@@ -7,9 +7,9 @@
    ">
 <!--bean></bean-->
     <bean id="training" class="Training">
-        <property name="trainingId" value="1.1" />
-        <property name="courseName" value="Java"/>
-        <property name="duration" value="2.5"/>
+        <constructor-arg name="trainingId" value="1.1" />
+        <constructor-arg name="courseName" value="Java"/>
+        <constructor-arg name="duration" value="2.5"/>
     </bean>
 
     <bean id="Student" class="Student">
