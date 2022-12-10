@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-4.1.xsd
+   ">
+
+    <bean id="training" class="Training">
+        <property name="trainingId" value="1.1" />
+        <property name="courseName" value="Java"/>
+        <property name="duration" value="2.5"/>
+    </bean>
+
+    <bean id="Student" class="Student">
+        <property name="studentId" value="1" />
+        <property name="studentName" value="Shireen" />
+        <property name="Training" ref="training" />
+        <property name="grade" value="A" />
+    </bean>
+
+</beans>
