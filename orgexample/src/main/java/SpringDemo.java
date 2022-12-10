@@ -1,6 +1,6 @@
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-
+//spring demo example
 public class SpringDemo {
     public static void main(String[] args){
         String config="applicationContext.xml";
